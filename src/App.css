@@ -1,0 +1,179 @@
+
+.App {
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  background-color: #f8f9fa;
+ 
+  min-height: 100vh;
+}
+
+
+.btn{
+  background-color:#f8f9fa !important;
+  color:#212529 !important;
+  border:none !important;
+}
+.btn:hover{
+  background-color: #212529 !important;
+  color:white !important;
+}
+
+#tab {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #f8f9fa;
+  width: 100%;
+  padding:15px;
+  align-items: center;
+}
+.tab1{
+  margin-left:3px;
+}
+#tab1{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cartbtn{
+  border:1px solid #212529 !important;
+}
+#clogo{
+  width: 50px;
+  height: 50px;
+  border:1px solid;
+
+  border-radius: 50%;
+  opacity: 0.8;
+}
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  padding:50px;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.caird {
+
+  /* font-family: 'Roboto', sans-serif; */
+
+  width: 206px;
+  min-height: 332.33px;
+  border: 1px solid rgb(201, 195, 195);
+  background: white;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  box-shadow: 0 5px 5px 0 rgb(173, 172, 172);
+}
+
+#details{
+
+  margin:5px;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#productpic {
+  box-sizing: border-box;
+  width: 100%;
+  height: 137.33px;
+  background-color: rgb(194, 184, 184);
+  padding-top: 25%;
+}
+
+#saletag {
+  padding: 2px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  background: black;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+#oldprice {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Rating */
+
+#out {
+  position: relative !important;
+  display: inline-block !important;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden!important;
+}
+
+#in {
+  position: absolute  !important;
+  display: inline-block !important;
+  top: 0;
+  left: 0;
+  overflow: hidden !important ;
+  font-size: 14px;
+
+  width: 0;
+}
+
+#out::after {
+  content: "\2605 \2605 \2605 \2605 \2605";
+  color: #ccc;
+}
+
+#in::after {
+  content: "\2605 \2605 \2605 \2605 \2605";
+  color: rgb(238, 255, 0);
+}
+
+#cart{
+
+  padding-bottom: 200px;
+  
+}
+#cartlist > li {
+  box-sizing: border-box;
+  box-shadow: 0 0 2px 5px rgb(156, 153, 153);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  min-height: 45px;
+  background: rgb(163, 147, 150);
+  padding: 5px;
+  margin: 15px auto;
+  font-size: 20px;
+  list-style-type: none;
+}
+#cartlist> button{
+  border-radius: 5px !important;
+}
+
+
+#foot{
+
+  width: 100%;
+  position:absolute;
+  
+  bottom: 0;
+  margin-top: 100px;
+  
+  
+}
