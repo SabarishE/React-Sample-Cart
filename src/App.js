@@ -87,7 +87,7 @@ function App() {
         </Switch>
 
         <Switch>
-          <Route exact path="/">
+          <Route path="/">
             <Redirect to="/products" />
           </Route>
         </Switch>

@@ -28,6 +28,8 @@ export function Cart(props) {
           );
         })}
       </ul>
+      <br></br>
+      <button className="btn-primary">Check out</button>
       </div>
     );
   }
