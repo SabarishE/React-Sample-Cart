@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Task-2/static/css/main.301c6467.chunk.css",
-    "main.js": "/React-Task-2/static/js/main.45c06e92.chunk.js",
-    "main.js.map": "/React-Task-2/static/js/main.45c06e92.chunk.js.map",
+    "main.css": "/React-Task-2/static/css/main.174fddbe.chunk.css",
+    "main.js": "/React-Task-2/static/js/main.a45d9f14.chunk.js",
+    "main.js.map": "/React-Task-2/static/js/main.a45d9f14.chunk.js.map",
     "runtime-main.js": "/React-Task-2/static/js/runtime-main.aaecb921.js",
     "runtime-main.js.map": "/React-Task-2/static/js/runtime-main.aaecb921.js.map",
     "static/css/2.7b1c032f.chunk.css": "/React-Task-2/static/css/2.7b1c032f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.300576bb.chunk.js.map": "/React-Task-2/static/js/3.300576bb.chunk.js.map",
     "index.html": "/React-Task-2/index.html",
     "static/css/2.7b1c032f.chunk.css.map": "/React-Task-2/static/css/2.7b1c032f.chunk.css.map",
-    "static/css/main.301c6467.chunk.css.map": "/React-Task-2/static/css/main.301c6467.chunk.css.map",
+    "static/css/main.174fddbe.chunk.css.map": "/React-Task-2/static/css/main.174fddbe.chunk.css.map",
     "static/js/2.1fa8ca22.chunk.js.LICENSE.txt": "/React-Task-2/static/js/2.1fa8ca22.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/React-Task-2/static/media/logo.6ce24c58.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.aaecb921.js",
     "static/css/2.7b1c032f.chunk.css",
     "static/js/2.1fa8ca22.chunk.js",
-    "static/css/main.301c6467.chunk.css",
-    "static/js/main.45c06e92.chunk.js"
+    "static/css/main.174fddbe.chunk.css",
+    "static/js/main.a45d9f14.chunk.js"
   ]
 }
