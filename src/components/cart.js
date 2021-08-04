@@ -1,4 +1,11 @@
+import {
+  useHistory
+} from "react-router-dom";
+
+
 export function Cart(props) {
+
+  var history =useHistory();
     return (
       <div id="cart">
         <ul id="cartlist">
@@ -29,7 +36,7 @@ export function Cart(props) {
         })}
       </ul>
       <br></br>
-      <button className="btn-primary">Check out</button>
+      <button className="btn-primary" onClick={()=>history.push("/products")}>Check out</button>
       </div>
     );
   }

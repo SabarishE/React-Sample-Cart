@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import { products } from "./productscollection";
 
-import bootstrap from 'bootstrap';
+
 import "bootstrap/dist/css/bootstrap.css";
 
 import { Cart } from "./components/cart";
@@ -16,8 +16,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect,
-  useHistory
+  Redirect
 } from "react-router-dom";
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
       <Router>
         <div id="tab">
         <div id="tab1">
-          <img src="https://vitorials.net/wp-content/uploads/2019/09/Letter-B-Logo-Design-Tutorial.jpg" id="clogo"></img>
+          <img src="https://vitorials.net/wp-content/uploads/2019/09/Letter-B-Logo-Design-Tutorial.jpg" id="clogo" alt="logo"></img>
        <Link><button className="tab1 btn btn-outline-dark mt-auto">Home</button></Link> 
        <Link><button className="tab1 btn btn-outline-dark mt-auto">About</button></Link> 
 
