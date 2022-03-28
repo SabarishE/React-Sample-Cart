@@ -1,3 +1,3 @@
-# React-Sample-Cart
+# React-Sample-Product-Cart
 
-## visist the  [site](https://sabarishe.github.io/React-Task-2/) 🚀
+## visist the  [site](https://react-sample-cart.netlify.app/) 🚀
